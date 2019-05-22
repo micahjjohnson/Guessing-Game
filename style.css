@@ -1,0 +1,33 @@
+/* CSS Document */
+	#logo {
+		width: 26%;
+    	display: block;
+    	margin: auto;
+	}
+	#header {
+		margin: 0 auto;
+		text-align: center;
+		padding: 5px;
+		border: 2px solid #BB97B7;
+		background-color: #BB97B7;
+	}
+	#directions {
+		font-size: 20px;
+		padding:25px;
+		text-align: center;
+	}
+	td {
+		border:0px solid black;
+		display:inherit;
+	}
+	table {
+		font-size: 18px;
+		margin: auto;
+    	padding: 0;
+	}
+	.button {
+		display:block;
+		margin:auto;
+		padding:0;
+		width:120px;
+	}

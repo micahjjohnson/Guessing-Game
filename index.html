@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<div id="header"><a href="index.html"><img id="logo" src="logo.png" alt="logo"></a></div>
+<title>Higher or Lower?</title>
+</head>
+
+<body>
+
+<form id="gameForm">
+	<table cellpadding="1">
+		<tr style="display:block;">
+			<td colspan="3" id="directions">Is the next random number in the sequence lower, higher, or the same as the number below?</div></td>
+		</tr>
+		<tr>
+			<td colspan="3" align="center" style="display:table-cell; padding:5px 5px 20px 5px; border:1px solid black;"><div id="initialGuess"></div></td>
+		</tr>
+		<tr>
+			<td style="width:32%;">
+				<input type="radio" id="lower" value="lower" name="myGuess"><label for="lower"> Lower</label>
+			</td>
+			<td style="width:32%;">
+				<input type="radio" id="same" value="same" name="myGuess"><label for="same"> Same</label>
+			</td>
+			<td style="width:33%;">
+				<input type="radio" id="higher" value="higher" name="myGuess"><label for="higher"> Higher</label>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3" style="display:table-cell; padding:20px;"><input type="button" id="sub" value="Submit" class="button"></td>
+		</tr>
+	</table>
+</form>
+
+<table id="result">
+	<tr>
+		<td><div id="wordGuessResult"></div></td>
+	</tr>
+	<tr>
+		<td><div id="numberGuessResult"></div></td>
+	</tr>
+	<tr>
+		<td><input id="restart" type="button" value="Restart" name="restart" class="button"></td>
+	</tr>
+</table>
+
+<script src="index.js" type="text/javascript"></script>
+</body>
+</html>
